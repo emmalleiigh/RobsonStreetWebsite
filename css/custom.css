@@ -1,0 +1,565 @@
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}
+
+
+.fcenter{
+margin-left: 50%;
+}
+
+.limage {
+width: 90%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+animation: fadein 4s;
+    -moz-animation: fadein 4s; /* Firefox */
+    -webkit-animation: fadein 4s; /* Safari and Chrome */
+    -o-animation: fadein 4s; /* Opera */
+
+}
+
+/* footer */  
+ 
+      
+      .foot ul {
+  list-style: none;
+  background-color: #a7bcc9;
+  text-align: center;
+  padding: 2%;
+  margin: 0;
+
+
+  
+}
+
+.foot  li {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;
+  border-bottom: 1px solid #ffffff;
+}
+ 
+.foot  a {
+  text-decoration: none;
+  color: #61788d;
+  display: block;
+  transition: .3s background-color;
+  font-weight:normal;
+}
+ 
+.foot  a:hover {
+  color:white;
+}
+ 
+.foot  a.active {
+  color: white;
+  cursor: default;
+
+    
+  /*border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;*/
+}
+ 
+
+  .foot  li {
+    width:100px;
+    border-bottom: none;
+    height: 40px;
+    line-height: 35px;
+    font-size: 18px;
+      float:center;
+      font-weight:lighter;
+  }
+    
+ 
+  /* Option 1 - Display Inline */
+
+ 
+  .foot  li {
+      display: inline-block;
+    float:center;
+      
+  }
+  .foot  ul {
+    overflow: auto;
+    width: auto;
+    margin: 0 auto;
+  }
+  .foot  {
+   
+  }
+
+
+
+
+.large footer{
+background-color: #a7bcc9;
+}
+
+
+
+.footcopy{
+color: #61788d;
+text-align: center;
+}
+
+
+
+
+.footcolor{
+background-color: #a7bcc9;
+padding: 4%;
+}
+
+.footcolor2{
+background-color: #a7bcc9;
+padding: 3%;
+}
+
+
+.footerimage{
+width: 70%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+.footerimagelarge{
+width: 50%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+
+.letters{
+width: 60px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.blue{
+color: #61788d;
+font-weight: normal;
+}
+
+.storenames{
+background-color:white;
+border: none;
+text-align: left;
+
+}
+
+.storenames2{
+background-color:white;
+border: none;
+text-align: center;
+
+
+}
+
+.block-grid {
+text-align: center;
+
+
+}
+
+
+.container{
+width: 10%;
+     margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+.arrow{
+     display: block;
+      margin-left: auto;
+    margin-right: auto;
+     width: 5%;
+    padding-top: 8%;
+
+}
+
+.mainbuttons{
+ display: block;
+      margin-left: auto;
+    margin-right: auto;
+    width: 8%;
+}
+
+
+.fadeIn {
+	/* Styling for Demo
+	---------------------------------------------------- */
+	
+	
+	/* CSS needed for animation
+	---------------------------------------------------- */
+	opacity:0;
+	-webkit-animation:fadeIn ease-in 1;
+	-moz-animation:fadeIn ease-in 1;
+	-o-animation:fadeIn ease-in 1;
+	animation:fadeIn ease-in 1;
+	-webkit-animation-fill-mode:forwards;
+	-moz-animation-fill-mode:forwards;
+	-o-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;
+}
+
+/* Animation Times - Time for image to fade in
+---------------------------------------------------- */
+.fadeIn-3s {
+	-webkit-animation-duration:3s;
+	-moz-animation-duration:3s;
+	-o-animation-duration:3s;
+	animation-duration:3s;
+}
+
+.fadeIn-5s {
+	-webkit-animation-duration:5s;
+	-moz-animation-duration:5s;
+	-o-animation-duration:5s;
+	animation-duration:5s;
+}
+
+/* Animation Delay - Time for image to be delayed
+---------------------------------------------------- */
+.fadeIn-Delay-3s {
+	-webkit-animation-delay:0s;
+	-moz-animation-delay:0s;
+	-o-animation-delay:0s;
+	animation-delay:0s;
+}
+
+.fadeIn-Delay-5s {
+	-webkit-animation-delay:5s;
+	-moz-animation-delay:5s;
+	-o-animation-delay:5s;
+	animation-delay:5s;
+}
+
+/* Key Frames
+---------------------------------------------------- */
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-o-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+
+.vrunway{
+text-align: center;
+background: green;
+padding: 1%;
+z-index: 10%;
+margin-top: 10%;
+    
+}
+
+.bannermain{
+
+margin-left: auto;
+margin-right: auto;
+  
+}
+
+
+.initiallyHidden { display: none; }
+
+.ex3toggle ,.ex2toggle ,.ex1toggle {
+    background-color:#a7bcc9;
+    color:white;
+    border-radius: 10px;
+    border-style:none;
+    outline: none;
+    text-align: center;
+    font-size: 13px;
+ 
+}
+
+
+
+.show-for-small{
+margin-left: auto;
+    margin-right: auto;
+
+}
+
+.robsonlogo{
+   display: block;
+      margin-left: auto;
+    margin-right: auto;
+     width: 70%; 
+    max-width: 60%;
+    padding-top: 2%;
+    
+  
+}
+
+.robsonlogo2{
+   display: block;
+      margin-left: auto;
+    margin-right: auto;
+    
+    max-width: 300px;
+    padding-top: 5%;
+  
+}
+
+
+
+.sizevenu{
+font-size: 15px;
+}
+
+
+ /* .ss{
+margin-right: -55%;
+margin-left: 110%;
+margin-top: -55%;
+  }
+*/
+
+.ss{
+margin-top: 5%;
+
+  }
+.venu{
+text-align: center;
+}
+
+.active{
+background-color: #e7e8e9;
+
+}
+.swirlylogo{
+    display: block;
+      margin-left: auto;
+    margin-right: auto;
+    max-width: 30%;
+    padding-top: 2%;
+      }
+
+.swirlylogo2{
+     text-align: center;
+    padding-top: 1%;
+    color: white;
+    font-weight: 500;
+   
+      }
+  
+.swirlylogo3{
+
+float: left;
+width: 100%;
+}
+
+  }
+       .fot{
+       width:100%;
+       height: 180px;
+      background-color: grey;
+       
+       }
+      .test{
+      width: 100%;
+          height: auto;
+     background-color: #001a31;
+      }
+          
+.testmain{
+      width: 100%;
+          height:100%;
+     background-color: #001a31;
+          
+  
+   /* main nav */   
+    
+      }
+      .nav ul {
+  list-style: none;
+  background-color:#a7bcc9;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+          
+
+
+  
+}
+.nav li {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.8em;
+  line-height: 40px;
+  height: 40px;
+  border-bottom: 1px solid #ffffff;
+    font-weight:lighter;
+    
+}
+ 
+.nav a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  transition: .3s background-color;
+}
+ 
+.nav a:hover {
+  background-color: inherit;
+  color:white;
+}
+ 
+.nav a.active {
+ background-color: inherit;
+  color: white;
+  cursor: default;
+}
+ 
+@media screen and (min-width: 768px) {
+  .nav li {
+    width: 100px;
+    border-bottom: none;
+    height: 40px;
+    line-height: 40px;
+     font-size: 18px;
+      font-weight:lighter;
+    
+
+  }
+ 
+  /* Option 1 - Display Inline */
+  .nav li {
+    display: inline-block;
+      float:left;
+      
+   
+  }
+ 
+  .nav li {
+      margin-left: auto;
+    margin-right: auto;
+  }
+  .nav ul {
+    overflow: auto;
+    width: auto;
+    margin: 0 auto;
+  }
+  .nav {
+    background-color: #61788d;
+   
+  }
+    
+    
+    }
+    /* second nav */  
+ 
+      
+      .nav2 ul {
+  list-style: none;
+  background-color:white;
+  text-align: center;
+  padding: 2%;
+  margin: 0;
+
+
+  
+}
+
+.nav2 li {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;
+  border-bottom: 1px solid #ffffff;
+}
+ 
+.nav2 a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  transition: .3s background-color;
+}
+ 
+.nav2 a:hover {
+background-color: white;
+  color:#61788d;
+}
+ 
+.nav2 a.active {
+ background-color: white;
+  color:#61788d;
+  cursor: default;
+
+    
+  /*border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;*/
+}
+ 
+
+  .nav2 li {
+    width:122px;
+    border-bottom: none;
+    height: 40px;
+    line-height: 35px;
+    font-size: 18px;
+      float:center;
+      font-weight:lighter;
+  }
+    
+.subheader{
+font-weight:normal;
+}
+
+.runway{
+font-weight:normal;
+}
+ 
+  /* Option 1 - Display Inline */
+
+ 
+  .nav2 li {
+      display: inline-block;
+    float:center;
+      
+  }
+  .nav2 ul {
+    overflow: auto;
+    width: auto;
+    margin: 0 auto;
+  }
+  .nav2 {
+    background-color: #61788d;
+   
+  }
+
+
+
+.runwaypanel{
+background-color:#deeaf2;
+    border: none;
+}
+  
+.discoverrobson{
+    
+text-align: center;
+color: #61788d;
+font-weight:normal;
+}
+
+.storename{
+font-weight: bolder;
+}
+
+
